@@ -5,7 +5,7 @@
 #define CLK 27
 #define DAT 28
 #define ROLLOVER 6
-#define _DEBUG
+//#define _DEBUG
 
 
 #ifdef _DEBUG
@@ -174,7 +174,7 @@ void loop() {
     }
 
     if (data_buffer < 0x80 && data_buffer != 0 && search_array(&data_buffer, active_keys, ROLLOVER) == -1) {
-      //if not already active && is a press not unpress code
+      //if not already active && is a press code
       active_keys[strlen(active_keys)] = data_buffer;  //strlen effectively provides the first available slot in the array
     } 
     else if (data_buffer >= 0x80) {

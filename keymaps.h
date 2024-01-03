@@ -164,15 +164,15 @@ char layer1[] PROGMEM {
   layer0[69], //numlock
   layer0[70], //scrolllock
   layer0[71], //num 7
-  0x80, //num 8 - vol up
+  layer0[72], //num 8
   layer0[73], //num 9
   layer0[74], //num -
-  layer0[75], //num 4 - prev track
-  layer0[76], //num 5 - play/pause
-  layer0[77], //num 6 - next track
+  layer0[75], //num 4
+  layer0[76], //num 5
+  layer0[77], //num 6
   layer0[78], //num +
   layer0[79], //num 1
-  0x81, //num 2 - vol down
+  layer0[80], //num 2 
   layer0[81], //num 3
   layer0[82], //num 0
   layer0[83], //num del
