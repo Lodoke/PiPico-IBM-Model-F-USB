@@ -8,7 +8,11 @@ NOTE: I live in the UK so the keymap is for a <b>UK LAYOUT</b> if you want a US 
  - Connect the Data Pin to that defined in DAT macro (default 28)
  - Connect the keyboards +5v pin to the vsys pin on the pico
  - Connect the ground pin to any GND pin on the pico
- - Plug in the keyboard into the Pico and <b>then</b> the Pico into the computer and it should just work
+ - Open the .ino file in the Arduino IDE install the rp2040 mbed os boards through the boards manager
+ - Plug in the keyboard into the Pico and the Pico into the computer
+ - Select the Raspberry Pi Pico in the Arduino IDE
+ - Press the program button in the top left corner (Big Arrow)
+ - Congratulations! You should have a function Model F XT -> USB adapter
 
 The Pico can be external to the keyboard and use a DIN connector to interface with the original cable,
 or it can be mounted internally to the keyboard.
