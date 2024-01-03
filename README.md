@@ -12,7 +12,7 @@ NOTE: I live in the UK so the keymap is for a <b>UK LAYOUT</b> if you want a US 
  - Plug in the keyboard into the Pico and the Pico into the computer
  - Select the Raspberry Pi Pico in the Arduino IDE
  - Press the program button in the top left corner (Big Arrow)
- - Congratulations! You should have a function Model F XT -> USB adapter
+ - Congratulations! You should have a functional Model F XT -> USB adapter
 
 The Pico can be external to the keyboard and use a DIN connector to interface with the original cable,
 or it can be mounted internally to the keyboard.
